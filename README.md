@@ -51,9 +51,9 @@ Click the "Delete" button next to the customer record you want to remove.
 Confirm the deletion when prompted.
 
 **Technologies Used**
-Java
-Spring Framework
-Hibernate
-HTML/CSS
-JavaScript
-MySQL
+Java,
+Spring Framework,
+Hibernate,
+HTML/CSS,
+JavaScript,
+MySQL.
