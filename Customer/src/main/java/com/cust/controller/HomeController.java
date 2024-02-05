@@ -74,7 +74,7 @@ public class HomeController {
 			@RequestParam String email, @RequestParam String mobileNumber, Model model, RedirectAttributes redirectAttributes) {
 		System.out.println("Updating ");
 		long mobileNumber1 = Long.parseLong(mobileNumber);
-		boolean customerDetails = homeService.updateMemberEntity(customerId,firstName,lastName,street,address,city,state,email,mobileNumber1);
+		boolean customerDetails = homeService.updateMemberEntity(customerId,firstName.toLowerCase(),lastName.toLowerCase(),street.toLowerCase(),address.toLowerCase(),city.toLowerCase(),state.toLowerCase(),email.toLowerCase(),mobileNumber1);
 		System.out.println(firstName + " " + lastName + " " + street + " " + address + " " + city + " " + state
 				+ " " + email + " " + mobileNumber1);
 		System.out.println(customerDetails);
