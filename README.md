@@ -30,7 +30,7 @@ After login, administrators are redirected to the homepage displaying customer r
 Add Customer:
 Click the "Add Customer" button.
 Fill in the required details for the new customer.
-Click the "Save" button to add the customer.
+Click the "Submit" button to add the customer.
 
 Filter By:
 Select one of the filter criteria from the dropdown list.
@@ -44,7 +44,7 @@ The system will display the matching customer records.
 Edit:
 Click the "Edit" button next to the customer record you want to modify.
 Update the necessary fields with new information.
-Click the "Save" button to apply the changes.
+Click the "Submit" button to apply the changes.
 
 Delete:
 Click the "Delete" button next to the customer record you want to remove.
